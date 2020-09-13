@@ -1,0 +1,30 @@
+.todolist-container{
+    margin:1rem auto;
+    border: 1px solid #e1e1e1 ;
+    box-shadow:7px 7px 5px 0px rgba(50, 50, 50, 0.39);
+    width: 35%;
+    height: auto;
+    font-size:20px;
+
+    header{
+        padding: 5px 10px;
+        display: flex;
+        img{
+            padding: 3px 7px 0 0;
+            opacity:.2;
+            transition:opacity 0.5s;
+        }
+        .active{
+            opacity:.7;
+        }
+    }
+
+    input{
+        outline-style: none;
+        border:none;
+        padding:5px;
+        width: 95%;
+        height: 2;
+        font-size:inherit;
+    }
+}

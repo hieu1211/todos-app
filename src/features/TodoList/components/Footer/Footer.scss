@@ -1,0 +1,31 @@
+.footer{
+    display:flex;
+    justify-content: space-between;
+    font-size:70%;
+    padding:0.3em 0.5em;
+    
+    .status{
+        span{
+            margin:0 0.3em;
+            padding: 0.2em 0.2em;
+            cursor: pointer;
+        }
+    
+        .active{
+            border: 1px solid orange;
+        }
+    }
+
+    .clear{
+        flex:1;
+        text-align: right;
+    }
+
+    .invisible{
+        visibility:hidden;
+    }
+
+    .count{
+        flex:1
+    }
+}

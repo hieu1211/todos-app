@@ -1,0 +1,18 @@
+.TodoItem{
+    display: flex;
+    align-items: center;
+
+    border-top:1px solid rgb(192, 184, 184);
+    img{
+        margin:0 0.5em;
+    }
+    p{
+        margin-top:0.8em;
+        transition: color 0.5s ease-in;
+    }
+}
+
+.completed{
+    text-decoration: line-through;
+    color:#B3B3B3;
+}
